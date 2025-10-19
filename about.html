@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About - Web Server</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            margin: 0;
+            padding: 40px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255,255,255,0.1);
+            padding: 40px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        a {
+            color: #FFD700;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .tech-stack {
+            background: rgba(0,0,0,0.2);
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        .tech-stack h2 {
+            margin-top: 0;
+        }
+        ul {
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>About This Project</h1>
+        <p>This is a fully functional HTTP/1.1 web server built entirely from scratch using Java socket programming and multi-threading.</p>
+        
+        <div class="tech-stack">
+            <h2>🛠️ Technical Implementation</h2>
+            <ul>
+                <li><strong>Socket Programming:</strong> Raw TCP/IP sockets for network communication</li>
+                <li><strong>Multi-threading:</strong> ExecutorService with thread pool (10 workers)</li>
+                <li><strong>HTTP Protocol:</strong> Manual parsing and response generation</li>
+                <li><strong>Concurrency:</strong> Thread-safe request handling</li>
+                <li><strong>File I/O:</strong> Java NIO for efficient file operations</li>
+            </ul>
+        </div>
+        
+        <p style="margin-top: 30px;">
+            <a href="/">← Back to Home</a>
+        </p>
+    </div>
+</body>
+</html>
+
+ 
